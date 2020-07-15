@@ -12,9 +12,16 @@ function servicesHeadingFun() {
 function galleryBoxContentShowText() {
   if(galleryBoxContent[0].getClientRects()[0].top < window.innerHeight / 1.2 ){
     galleryHeading[0].style.filter = 'blur(1px)';
+    setTimeout(function () {
+      galleryHeading[0].style.top = '-25vw';
+    }, 500);
   }
   else{
     galleryHeading[0].style.filter = 'blur(100vw)';
+
+    setTimeout(function () {
+      galleryHeading[0].style.top = '-20vw';
+    }, 500);
   }
 }
 

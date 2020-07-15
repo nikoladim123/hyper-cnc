@@ -118,8 +118,8 @@ main {
   text-align: center;
   font-size: 7vw;
   width: 100%;
-  /* top: -25vw; */
-  top: -27vw;
+  /* top: -23vw; */
+  top: -20vw;
   transition: 0.7s ease;
   filter: blur(100vw);
   margin: 0;
